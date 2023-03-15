@@ -5,7 +5,6 @@ pipelines:
       - step:
           script:
             - echo 'Refer to README.md for instructions and then uncomment steps below'
-            #- ./base-infra/deploy.bash
-            #- ./alpha-service/deploy.bash
-            #- ./beta-service/deploy.bash
-            #- ./charlie-service/deploy.bash
+            - ./base-infra/deploy.bash
+            - ./alpha-service/deploy.bash
+            
