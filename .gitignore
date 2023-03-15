@@ -1,0 +1,9 @@
+dist/
+npm-debug.log
+yarn-error.log
+node_modules/
+.DS_Store
+.terraform
+*.tfstate
+*.tfstate.backup
+.history/
